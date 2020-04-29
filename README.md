@@ -21,4 +21,3 @@ hmmlearn==0.2.3
 pandas==1.0.3
 matplotlib==3.1.3
 Pillow==7.0.0
-
