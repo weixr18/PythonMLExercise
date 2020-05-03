@@ -40,7 +40,7 @@ def get_args():
 
 
 def get_data():
-    data = np.load('./data/mnist.npz')
+    data = np.load('../data/mnist.npz')
     X_train = data['X_train']
     Y_train = data['y_train']
 

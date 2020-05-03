@@ -143,7 +143,7 @@ def read_data(class_num, classes=None):
     print("Chosen faces:", rands)
 
     # 样本路径
-    Datapaths = [("./data/Pictures/" + str(rands[i]) + "/*.png")
+    Datapaths = [("../data/Pictures/" + str(rands[i]) + "/*.png")
                  for i in range(class_num)]
     X = np.zeros((class_num * PIC_NUM, PIC_SCALE, PIC_SCALE))
     Y = np.zeros(class_num * PIC_NUM)

@@ -117,8 +117,8 @@ if __name__ == "__main__":
     args = get_args()
     args.sub_question = [int(i) for i in args.sub_question]
 
-    X = get_txt_data("./data/feature_selection_X.txt")
-    Y = get_txt_data("./data/feature_selection_Y.txt")
+    X = get_txt_data("../data/feature_selection_X.txt")
+    Y = get_txt_data("../data/feature_selection_Y.txt")
     Y = np.ravel(Y)
 
     class_num = np.unique(Y).size

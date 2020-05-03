@@ -96,7 +96,7 @@ def read_data(path):
 
 if __name__ == "__main__":
     # 读入数据
-    train = read_data("data/breast-cancer-wisconsin.txt")
+    train = read_data("../data/breast-cancer-wisconsin.txt")
     X = [d[1:10] for d in train]
     Y = [d[10] for d in train]
     X = np.array(X)

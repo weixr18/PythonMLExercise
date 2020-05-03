@@ -83,11 +83,11 @@ def read_data(path):
 
 if __name__ == "__main__":
     # prepare data
-    heads, train = read_data(".\\data\\prostate_train.txt")
+    heads, train = read_data("../data/prostate_train.txt")
     X = [d[:4] for d in train]
     Y = [d[4] for d in train]
 
-    heads, test = read_data(".\\data\\prostate_test.txt")
+    heads, test = read_data("../data/prostate_test.txt")
     X_t = [d[:4] for d in test]
     Y_t = [d[4] for d in test]
 

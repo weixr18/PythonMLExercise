@@ -9,7 +9,7 @@ n_observations = len(observations)
 
 
 def load_data():
-    data = np.load('./data/sequences.npy')
+    data = np.load('../data/sequences.npy')
     data = data.reshape([data.size, 1])
     data -= 1
     return data

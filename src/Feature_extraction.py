@@ -35,7 +35,7 @@ def high_light_mess(mess):
 
 
 def get_data():
-    data = np.load('./data/mnist.npz')
+    data = np.load('../data/mnist.npz')
     X_train = data['X_train']
     X_test = data['X_test']
     Y_train = data['y_train']

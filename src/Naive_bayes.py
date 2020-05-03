@@ -189,7 +189,7 @@ def read_data():
     读取数据
     """
     # 样本路径
-    datapath = "./data/spambase/spambase.data"
+    datapath = "../data/spambase/spambase.data"
     X = np.loadtxt(datapath, delimiter=',', dtype=float)
 
     Y = X[:, -1:]

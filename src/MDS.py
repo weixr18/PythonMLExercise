@@ -40,7 +40,7 @@ class MyMDS():
 
 
 def get_data():
-    path = './data/city_dist.xlsx'
+    path = '../data/city_dist.xlsx'
     data = pd.read_excel(path)
     names = data.values[:, 0]
     data = data.values[:, 1:]
