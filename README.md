@@ -6,6 +6,7 @@
 - 每一个代码文件对应一道题目。
 - 每个代码文件均可独立运行。
 - 目前共有16道题目，持续更新中。
+- 题目描述参见[这里](https://github.com/weixr18/PythonMLExercise/blob/master/questions.md)
 
 ## 数据
 
