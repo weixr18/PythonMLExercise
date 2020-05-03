@@ -1,5 +1,5 @@
+.gitignore
 tmp
 __pycache__
 .vscode
 data
-data.rar
